@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff ;
+    background:
+     linear-gradient(#ade8f4, #ffc8dd)
+     
+
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3,h4,p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#bahriye-img{
+    width:200px;
+    border-radius: 50%;
+    border: 5px solid #ffc8dd;
+}
+
+#bday-age{
+    margin: 10px 0px 10px 0px;
+    background: #ffc8dd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+#bday-date {
+    margin:0;
+    background: #ffc8dd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-section {
+    margin-top: 60px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("../images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-phoebe:hover{
+    background-image: url("../images/phoebe.webp");
+}
+
+#gift-img-sponge:hover{
+    background-image:url("../images/sponge.webp");
+}
+#gift-img-cute:hover{
+    background-image: url("../images/cute.webp");
+}
+#gift-img-cat:hover{
+    background-image: url("../images/cat.webp") ;
+}
+
+#gift-img-cheers{
+    height:200px;
+
+}
+
+#gift-img-cheers:hover{
+    background-image: url("../images/cheers.webp");
+}
+
+#footer{
+    font-size: italic;
+    width: 400px;
+    margin: 30px auto;
+}
+
+a{
+    color:white;
+}
