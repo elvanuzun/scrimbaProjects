@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.hero-section{
+    width: auto;
+    height: 400px;
+    background-image: url("../images/kosice1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:60px;
+    border-radius: 10px; 
+    padding: 3px 12px 5px 12px;
+    
+}
+
+.hero-section h1{
+    /* margin: 0px auto;  */
+    background:black;
+    border-radius: 10px; 
+    padding: 3px 12px 5px 12px;
+    font-size: 32px;
+
+}
+.hero-section h2{
+    width: 412px;
+    height: 35px;
+    background: #457B9D;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.activities-section{
+    display: flex;
+    justify-content: space-around;
+    color: #1D3557;
+}
+
+.activities-section h3{
+    font-weight: 700;
+    /* width: 200px;
+    height: 40px;*/
+} 
+
+.activities-section p{
+    width: 200px;
+    height: 54px;
+    
+}
+.activities-section img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.guide-section{
+    width: 400px;
+    height: 294px;
+    /* text-align:center; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px auto;
+
+}
+
+.avatar{
+    /* width: 240px;
+    height: 230px; */
+    width: 190px;
+    height: 248.67px;
+
+}
+.guide-section h3, h4,p{
+    color: #1D3557;
+}
+#guide-text{
+    margin-top:0px;
+    font-size:24px;
+    font-weight: 700;
+}
+
+#guide-main{
+    font-style: italic;
+    margin: 5px 5px 5px 4px;
+}
