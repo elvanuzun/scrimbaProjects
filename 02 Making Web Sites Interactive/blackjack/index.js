@@ -64,5 +64,8 @@ function newCard(){
         sum += card
         cards.push(card)
         renderGame() 
+    }else {
+        messageEl.textContent = "You can't draw a new card"
     }
+
 }
